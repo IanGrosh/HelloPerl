@@ -14,13 +14,13 @@ sub new
     return $self;
 }
 
-sub setName
+sub getName
 {
     my ($self) = @_;
     return $self->{name};
 }
 
-sub getName 
+sub setName 
 {
     my ($self, $name) = @_;
     $self->{name} = $name;
